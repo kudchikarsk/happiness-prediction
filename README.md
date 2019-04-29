@@ -2,3 +2,5 @@
 Sentimental analysis using keras in python
 
 Repository contain data and LearnHappiness jyputer notebook that contain all the code for normalizing data and training model.
+
+Also simple flask web app is added for demo
