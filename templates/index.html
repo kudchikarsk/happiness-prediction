@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <form method="POST" ="post" class="form">
+      <div class="form-group">
+        <h2>{{ form.text.label(class="form-control-label") }}</h2>
+        {{ form.text(class="form-control form-control-lg") }}
+      </div>
+      <div class="form-group">
+          {{ form.submit(class="btn btn-outline-primary") }}
+      </div>
+    </form> 
+
+    <div class="card">
+      <div class="card-header"><h4 class="text-muted">Output</h4></div>
+    <div class="card-body">
+      {% if isHappy is sameas true %}
+        <h3>Happy :)</h3>
+      {% else %}
+        <h3>Not Happy :(</h3>
+      {% endif %}
+    </div>
+  </div>
+   
+
+<h4 class="mt-5">Unseen Restaurant Reviews To Try</h4>
+    <div class="card mt-4">
+      <div class="card-header"><h4 class="text-muted">Happy</h4></div>
+            <pre>"What a pleasant place to stay!
+      The hotel is beautiful, very modern, stylish, with attention to detail. Our room on the -th floor was spacious, with great decor, hardwood floors, Keurig coffee maker, and floor to ceiling windows.
+      The bathroom was also big with a large shower. There was no tub, which was fine with us.
+      One of the best things - a QUIET air-conditioner! Finally something that didn't wake me up at night. Overall, the room was very quite despite the fact that there were occupied rooms all around us.
+      The staff was very pleasant. We asked if we could have a late check out at - pm. The gentleman at the desk graciously offered us - pm checkout due to our platinum status. It was perfect!
+      The restaurant downstairs in the lobby was nice, but doesn't really have much selection for lunch. The upstairs patio bar on the -th floor was closed for renovation.
+      The location is great. Within walking distance to Balboa Park (you can grab a free trolley once in the park), Seaport Village and of course Gaslamp. 
+      There is really nothing bad I can say about this hotel. Our stay was truly a pleasure. If there's anything I can suggest is that they should add refrigerators and microwaves to rooms.
+      Would love to come back."</pre>
+
+    </div>
+
+    <div class="card mt-4">
+      <div class="card-header"><h4 class="text-muted">Not Happy</h4></div>
+            <pre>"I booked out the same day I arrived. It cost me $---. No fridge or cofeemaker in room. Beverages in the reception must be paid for. Hotel all no smoking. When my partner asked if there was a rear outside smoking area the desk clerk screamed """"""""""""""""""""""""""""""""Outside Outside"""""""""""""""""""""""""""""""" and pointed to the front door. Problem is, there is a male strip club almost next door."</pre>
+
+    </div>
+
+    <div class="card mt-4">
+      <div class="card-header"><h4 class="text-muted">Happy</h4></div>
+            <pre>"This hotel is a keeper! First, you get a full breakfast buffet every morning. Second, Friday and Saturday night is a great seafood buffet with crab legs. Third, it has a Comedy Zone franchise in the hotel.
+Location right off I---- with plenty of places to eat near by."</pre>
+
+    </div>
+
+    <div class="card mt-4">
+      <div class="card-header"><h4 class="text-muted">Hard to Tell</h4></div>
+            <pre>"I stayed here with my girlfriend who was attending a conference here. Picked the hotel based on that. 
+The hotel is located well, not far from lots of shopping on Union Square and across the street from a main transit station. 
+One thing I have to say is try to book on a higher floor. We where on Geary street on a lower floor and it was quite noisy most nights. If you wear earplugs it might suffice. 
+Service was quick to the room."</pre>
+
+    </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
