@@ -1,6 +1,6 @@
 # Happiness Prediction
-Sentimental analysis using keras in python
+This Repository performs Sentimental analysis using keras in python.
+It contains data required for training the Keras model with the jyputer notebook.
+This repository contains all the code for normalizing data and training model.
 
-Repository contain data and LearnHappiness jyputer notebook that contain all the code for normalizing data and training model.
-
-Also simple flask web app is added for demo
+It also contains Flask based Web-App for Happiness Prediction.
